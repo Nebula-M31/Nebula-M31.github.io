@@ -1,0 +1,35 @@
+/* 定理框：深蓝标题栏 + 浅蓝内容区 */
+.theorem-box {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(32, 53, 120, 0.18);
+  margin: 1.8em 0;
+}
+
+.theorem-box .theorem-title {
+  background: #203578;
+  color: #ffffff;
+  padding: 10px 18px;
+  font-weight: 700;
+  font-size: 1.05em;
+  letter-spacing: 0.02em;
+}
+
+.theorem-box .theorem-body {
+  background: #f2f5fc;
+  padding: 16px 20px;
+  color: #333;
+}
+
+.theorem-box .theorem-body p {
+  margin: 0.5em 0;
+}
+
+/* note 提示框（备用） */
+.callout-note {
+  background: #f2f5fc;
+  border-left: 4px solid #203578;
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin: 1.6em 0;
+}
